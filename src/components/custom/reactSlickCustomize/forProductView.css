@@ -1,0 +1,36 @@
+.forProductView .slick-dots {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 11rem;
+  bottom: -50px;
+}
+
+.forProductView .slick-dots li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px;
+}
+
+.forProductView .slick-dots li button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(209, 209, 209, 1);
+  text-indent: -9999px;
+}
+
+.forProductView .slick-dots li.slick-active button {
+  cursor: default;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 100%;
+  background-color: rgba(0, 89, 188, 1);
+}

@@ -1,0 +1,47 @@
+.img-container {
+  width: 100%;
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.forProductsPageIntroduction .slick-dots ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+
+  margin: 0;
+  padding: 1rem 11rem;
+  list-style-type: none;
+}
+
+.forProductsPageIntroduction .slick-dots ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.forProductsPageIntroduction .slick-dots ul li button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  text-indent: -9999px;
+}
+
+.forProductsPageIntroduction .slick-dots ul li.slick-active button {
+  cursor: default;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 100%;
+  background-color: transparent;
+}
