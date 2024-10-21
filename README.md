@@ -125,3 +125,4 @@ npm install
 ```bash
 npm run start
 ```
+**[Demo page of the repository](https://ntt-data-frontend-case-study.vercel.app/products)**
